@@ -66,3 +66,12 @@ spring:
   "operationId": "some_operation_id",
   "code": "123456"
 }
+
+# Обновление конфигурации
+PUT /api/admin/conf
+
+# Список пользователей
+GET /api/admin/get-users
+
+# Удаление пользователя
+DELETE /api/admin/user/{id}
